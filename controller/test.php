@@ -1,5 +1,6 @@
 <?php
 require_once ROOTPATH.'/core/basecontroller.php';
+require_once ROOTPATH.'/models/user.php';
 class Test extends Basecontroller
 {
     public function testfn(){
@@ -9,5 +10,10 @@ class Test extends Basecontroller
     }
     public function base(){
         $this->render('info');
+    }
+    public function connectmodel(){
+        $model_uer=new User();
+        $res=$model_uer->getall();
+        print_var($res);
     }
 }
