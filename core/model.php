@@ -6,6 +6,7 @@
  * Time: 16:44
  */
 require_once ROOTPATH.'/core/mysql.php';
+
 class Model implements Mysql {
     private $dbms='mysql';
     private $dbhost='localhost';

@@ -1,4 +1,5 @@
 <?php
+
 	if(!empty($GLOBALS['CONTENT_TYPE']) && $GLOBALS['CONTENT_TYPE']=='application/json'){
 		$_POST=json_decode($GLOBALS['HTTP_RAW_POST_DATA']);
 	}
@@ -11,6 +12,8 @@
 		$method=empty($_POST)?'base':$_POST['method'];
 	}
 	require(ROOTPATH.'/controller/'.$action.'.php');
+
+
 	$action=ucfirst($action);
 	$controller=new $action();
 	$controller->$method();
