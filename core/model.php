@@ -5,7 +5,8 @@
  * Date: 2018/4/12
  * Time: 16:44
  */
-class Model{
+require_once ROOTPATH.'/core/mysql.php';
+class Model implements Mysql {
     private $dbms='mysql';
     private $dbhost='localhost';
     private $dbname='mvcproject';
