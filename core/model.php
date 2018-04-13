@@ -14,7 +14,6 @@ class Model{
     private $dbo;
     private static $_instance;
     private function __construct() {
-        echo 'aaa';
         $dbdsn=$this->dbms.":host=".$this->dbhost.';dbname='.$this->dbname;
         $dbh=new PDO($dbdsn,$this->dbuser,$this->dbpass);
         $this->dbo=$dbh;
@@ -27,7 +26,7 @@ class Model{
         return self::$_instance;
     }
     public function query($sql){
-        return $this->dbo->query($sql)->fetchAll();
+        return $this->dbo->query($sql);
     }
     
 }

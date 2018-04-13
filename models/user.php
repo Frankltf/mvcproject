@@ -5,16 +5,15 @@
  * Date: 2018/4/12
  * Time: 17:38
  */
-require_once ROOTPATH.'/core/model.php';
 
-class User{
+require_once ROOTPATH.'/core/db.php';
+class User extends Db{
     public function __construct() {
-
+        parent::__construct();
     }
     public function getall(){
-        $query='select * from user';
-        $db=Model::getInstance();
-        $res=$db->query($query);
+        $q='select * from user where password = 123';
+       $res=$this->query($q);
         return $res;
     }
 }
