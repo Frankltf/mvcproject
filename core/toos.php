@@ -11,3 +11,6 @@ function judgerequest(){
         return 'get';
     }
 }
+function getconfig($key){
+    return $GLOBALS['config'][$key];
+}
