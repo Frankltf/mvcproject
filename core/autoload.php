@@ -7,9 +7,11 @@
  */
 class AutoLoad{
     public function register(){
-        spl_autoload_register(array($this,'autoload'));
+        spl_autoload_register(array($this,'my_autoload'));
     }
-    public function autoload(){
-        echo 'eee';
+    public function my_autoload($className){
+        $arr=explode('\\',$className);
+        require_once ROOTPATH.'/'.$arr[0].'/'.lcfirst($arr[1]).'.php';
+
     }
 }

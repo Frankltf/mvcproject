@@ -19,8 +19,11 @@ class Route{
         	$method=empty($_POST)?'base':$_POST['method'];
         }
         require(ROOTPATH.'/controller/'.$action.'.php');
+
         $action=ucfirst($action);
+ 
         $controller=new $action();
+
         $controller->$method();
     }
 }
