@@ -11,7 +11,7 @@ class Test extends Basecontroller
     public function base(){
         $this->render('info');
     }
-    public function connectmodel(){
+    public function connectmodel($var){
         $model_uer=new User();
         $res=$model_uer->getall();
         print_var($res);

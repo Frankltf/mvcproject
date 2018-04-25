@@ -4,6 +4,7 @@
 			$this->_setHeader();
 			$this->_loadSysFile();
 			$this->_setAutoload();
+			$this->register();
 			$this->_setRoute();
 		}
 		public function _setHeader() {
@@ -17,10 +18,15 @@
 			$autoload=new AutoLoad();
 			$autoload->register();
 		}
-		public function _setRoute(){
+		public function register(){
 			require_once ROOTPATH.'/core/route.php';
 			$Route=new Route();
-			$Route->parse();
+			Mvcproject::set('route',$Route);
+
+			
+		}
+		public function _setRoute(){
+			Mvcproject::get('route')->parse();
 		}
 	}
 

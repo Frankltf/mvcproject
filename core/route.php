@@ -26,4 +26,18 @@ class Route{
 
         $controller->$method();
     }
+    public function url($arr){
+        $route=explode('/',$arr[0]);
+        $route2=explode('/',ROOTPATH);
+        $project=end($route2);
+        $url='/'.$project.'/index.php?action='.$route[0].'&method='.$route[1];
+        unset($arr[0]);
+        if(empty($arr)){
+            return $url;
+        }
+        foreach ($arr as $k=>$v){
+            $url.='&'.$k.'='.$v;
+        }
+        return $url;
+    }
 }
