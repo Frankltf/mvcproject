@@ -3,7 +3,9 @@
     require_once ROOTPATH.'/core/toos.php';
     require_once ROOTPATH.'/core/core.php';
     require_once ROOTPATH.'/core/mvcproject.php';
-    $APP=new App();
-    $APP->init();
+    require_once ROOTPATH.'/core/DI.php';
+    require_once ROOTPATH.'/core/appservice.php';
+    $Appservice=new Appservice();
+    $Appservice->run();
 
 ?>

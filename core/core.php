@@ -1,5 +1,13 @@
 <?php
 	class App{
+		protected $autoload;
+		protected $route;
+		protected $mvcsession;
+		public function __construct($autoload,$route,$mvcsession) {
+			$this->autoload=$autoload;
+			$this->route=$route;
+			$this->mvcsession=$mvcsession;
+		}
 		public function init(){
 			$this->_setHeader();
 			$this->_loadSysFile();
@@ -14,21 +22,16 @@
 			$GLOBALS['config']=require_once ROOTPATH.'/core/config.php';
 		}
 		public function _setAutoload(){
-			require_once ROOTPATH.'/core/autoload.php';
-			$autoload=new AutoLoad();
-			$autoload->register();
+			$this->autoload->register();
 		}
 		public function register(){
-			require_once ROOTPATH.'/core/route.php';
-			$Route=new Route();
-			Mvcproject::set('route',$Route);
-			require_once ROOTPATH.'/core/session.php';
-			$mvcsession=new Mvcsession();
-			Mvcproject::set('mvcsession',$mvcsession);
+			Mvcproject::set('route',$this->route);
+			Mvcproject::set('mvcsession',$this->mvcsession);
 		}
 		public function _setRoute(){
 			Mvcproject::get('route')->parse();
 		}
+
 	}
 
 ?>
