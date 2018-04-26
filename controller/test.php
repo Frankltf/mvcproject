@@ -16,4 +16,15 @@ class Test extends Basecontroller
         $res=$model_uer->getall();
         print_var($res);
     }
+    public function setsess(){
+        Mvcproject::get('mvcsession')->setsession(['two'=>array(1,2,3)]);
+    }
+    public function getsess(){
+        $res=Mvcproject::get('mvcsession')->getsession('two');
+        print_var($res);
+    }
+    public function remocesess(){
+        Mvcproject::get('mvcsession')->removesession('two');
+    }
+
 }

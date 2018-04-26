@@ -22,8 +22,9 @@
 			require_once ROOTPATH.'/core/route.php';
 			$Route=new Route();
 			Mvcproject::set('route',$Route);
-
-			
+			require_once ROOTPATH.'/core/session.php';
+			$mvcsession=new Mvcsession();
+			Mvcproject::set('mvcsession',$mvcsession);
 		}
 		public function _setRoute(){
 			Mvcproject::get('route')->parse();

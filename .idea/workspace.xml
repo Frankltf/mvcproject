@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d790966c-b35e-46d8-82b9-c947a9cd5989" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/implemvcproject.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/mvcproject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/session.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/test.php" afterPath="$PROJECT_DIR$/controller/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/autoload.php" afterPath="$PROJECT_DIR$/core/autoload.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.php" afterPath="$PROJECT_DIR$/core/core.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/route.php" afterPath="$PROJECT_DIR$/core/route.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="mvcproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,24 +68,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/test.php">
+      <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="528">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
-                <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
-                <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
+                <element signature="n#setsession#0;n#Mvcsession#0;n#!!top" expanded="true" />
+                <element signature="n#removesession#0;n#Mvcsession#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="core.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="core.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/core.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+            <state relative-caret-position="506">
+              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
               <folding>
                 <element signature="n#init#0;n#App#0;n#!!top" expanded="true" />
                 <element signature="n#_setHeader#0;n#App#0;n#!!top" expanded="true" />
@@ -100,13 +97,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="route.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="route.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/route.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="689">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="440">
+              <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
               <folding>
-                <element signature="n#parse#0;n#Route#0;n#!!top" expanded="true" />
+                <element signature="n#url#0;n#Route#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,6 +116,23 @@
               <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
               <folding>
                 <element signature="n#register#0;n#AutoLoad#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="n#testfn#0;n#Test#0;n#!!top" expanded="true" />
+                <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
+                <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
+                <element signature="n#setsess#0;n#Test#0;n#!!top" expanded="true" />
+                <element signature="n#getsess#0;n#Test#0;n#!!top" expanded="true" />
+                <element signature="n#remocesess#0;n#Test#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,11 +165,12 @@
         <option value="$PROJECT_DIR$/core/app.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/core/autoload.php" />
-        <option value="$PROJECT_DIR$/core/route.php" />
-        <option value="$PROJECT_DIR$/controller/test.php" />
         <option value="$PROJECT_DIR$/core/implemvcproject.php" />
         <option value="$PROJECT_DIR$/core/mvcproject.php" />
+        <option value="$PROJECT_DIR$/controller/test.php" />
+        <option value="$PROJECT_DIR$/core/session.php" />
         <option value="$PROJECT_DIR$/core/core.php" />
+        <option value="$PROJECT_DIR$/core/route.php" />
       </list>
     </option>
   </component>
@@ -206,7 +221,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -255,6 +269,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,17 +336,18 @@
       <workItem from="1524109480422" duration="4392000" />
       <workItem from="1524120044101" duration="2964000" />
       <workItem from="1524629607671" duration="6203000" />
+      <workItem from="1524703435363" duration="2784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49958000" />
+    <option name="totallyTimeSpent" value="52742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18620269" sideWeight="0.4952251" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18803419" sideWeight="0.4952251" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -368,14 +384,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/one.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -421,8 +429,12 @@
         <state relative-caret-position="88">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding>
+            <element signature="n#testfn#0;n#Test#0;n#!!top" expanded="true" />
             <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
             <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#setsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#getsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#remocesess#0;n#Test#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -445,7 +457,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="n#url#0;n#Route#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -518,8 +532,12 @@
         <state relative-caret-position="220">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
           <folding>
+            <element signature="n#testfn#0;n#Test#0;n#!!top" expanded="true" />
             <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
             <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#setsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#getsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#remocesess#0;n#Test#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -563,8 +581,12 @@
         <state relative-caret-position="374">
           <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding>
+            <element signature="n#testfn#0;n#Test#0;n#!!top" expanded="true" />
             <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
             <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#setsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#getsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#remocesess#0;n#Test#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -574,8 +596,12 @@
         <state relative-caret-position="88">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
           <folding>
+            <element signature="n#testfn#0;n#Test#0;n#!!top" expanded="true" />
             <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
             <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#setsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#getsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#remocesess#0;n#Test#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -639,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="112" column="3" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,37 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="n#register#0;n#AutoLoad#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
-            <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/route.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="n#parse#0;n#Route#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/mvcproject.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -806,14 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/implemvcproject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -822,16 +808,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/core.php">
+    <entry file="file://$PROJECT_DIR$/core/implemvcproject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="n#register#0;n#AutoLoad#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
-          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="n#testfn#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#setsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#getsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#remocesess#0;n#Test#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="n#setsession#0;n#Mvcsession#0;n#!!top" expanded="true" />
+            <element signature="n#removesession#0;n#Mvcsession#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
           <folding>
             <element signature="n#init#0;n#App#0;n#!!top" expanded="true" />
             <element signature="n#_setHeader#0;n#App#0;n#!!top" expanded="true" />
             <element signature="n#_loadSysFile#0;n#App#0;n#!!top" expanded="true" />
             <element signature="n#_setAutoload#0;n#App#0;n#!!top" expanded="true" />
             <element signature="n#_setRoute#0;n#App#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/route.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+          <folding>
+            <element signature="n#url#0;n#Route#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
