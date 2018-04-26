@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d790966c-b35e-46d8-82b9-c947a9cd5989" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/session.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller/test.php" afterPath="$PROJECT_DIR$/controller/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.php" afterPath="$PROJECT_DIR$/core/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/route.php" afterPath="$PROJECT_DIR$/core/route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/session.php" afterPath="$PROJECT_DIR$/core/session.php" />
     </list>
     <ignored path="mvcproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,10 +68,10 @@
       <file leaf-file-name="session.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/session.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+            <state relative-caret-position="308">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding>
-                <element signature="n#setsession#0;n#Mvcsession#0;n#!!top" expanded="true" />
+                <element signature="n#getsession#0;n#Mvcsession#0;n#!!top" expanded="true" />
                 <element signature="n#removesession#0;n#Mvcsession#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -97,7 +94,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="route.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="route.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/route.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
@@ -121,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controller/test.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="30" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="528">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="n#testfn#0;n#Test#0;n#!!top" expanded="true" />
                 <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
@@ -167,10 +164,10 @@
         <option value="$PROJECT_DIR$/core/autoload.php" />
         <option value="$PROJECT_DIR$/core/implemvcproject.php" />
         <option value="$PROJECT_DIR$/core/mvcproject.php" />
-        <option value="$PROJECT_DIR$/controller/test.php" />
-        <option value="$PROJECT_DIR$/core/session.php" />
         <option value="$PROJECT_DIR$/core/core.php" />
         <option value="$PROJECT_DIR$/core/route.php" />
+        <option value="$PROJECT_DIR$/core/session.php" />
+        <option value="$PROJECT_DIR$/controller/test.php" />
       </list>
     </option>
   </component>
@@ -336,12 +333,12 @@
       <workItem from="1524109480422" duration="4392000" />
       <workItem from="1524120044101" duration="2964000" />
       <workItem from="1524629607671" duration="6203000" />
-      <workItem from="1524703435363" duration="2784000" />
+      <workItem from="1524703435363" duration="3206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52742000" />
+    <option name="totallyTimeSpent" value="53164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="0" />
@@ -816,37 +813,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/autoload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-          <folding>
-            <element signature="n#register#0;n#AutoLoad#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="30" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="30" />
-          <folding>
-            <element signature="n#testfn#0;n#Test#0;n#!!top" expanded="true" />
-            <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
-            <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
-            <element signature="n#setsess#0;n#Test#0;n#!!top" expanded="true" />
-            <element signature="n#getsess#0;n#Test#0;n#!!top" expanded="true" />
-            <element signature="n#remocesess#0;n#Test#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/session.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        <state relative-caret-position="308">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="n#setsession#0;n#Mvcsession#0;n#!!top" expanded="true" />
+            <element signature="n#getsession#0;n#Mvcsession#0;n#!!top" expanded="true" />
             <element signature="n#removesession#0;n#Mvcsession#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -872,6 +844,31 @@
           <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
           <folding>
             <element signature="n#url#0;n#Route#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="n#register#0;n#AutoLoad#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="n#testfn#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#base#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#connectmodel#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#setsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#getsess#0;n#Test#0;n#!!top" expanded="true" />
+            <element signature="n#remocesess#0;n#Test#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -17,7 +17,7 @@ class Test extends Basecontroller
         print_var($res);
     }
     public function setsess(){
-        Mvcproject::get('mvcsession')->setsession(['two'=>array(1,2,3)]);
+        Mvcproject::get('mvcsession')->setsession(['two'=>array(1,2,3)],3600);
     }
     public function getsess(){
         $res=Mvcproject::get('mvcsession')->getsession('two');

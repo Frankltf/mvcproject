@@ -7,6 +7,7 @@
  */
 class Mvcsession{
     public function setsession ($data,$date=''){
+        session_set_cookie_params($date);
         session_start();
         if(is_array($data)){
             foreach ($data as $k=>$v){
